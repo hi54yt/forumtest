@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ #wrapper {
+	 width: 960px;
+	 margin: 0 auto;
+ }
+ 
+ #wrapper-left {
+	 width: 630px;
+     float: left;
+ }
+ 
+ #wrapper-right {
+	 width: 300px;
+	 float: right;
+ }
+ 
+ .topics-header {
+	 border: 1px solid #EEE;
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 
+	 -webkit-border-radius: 6px 6px 0 0;
+	 -moz-border-radius: 6px 6px 0 0;
+	 border-radius: 6px 6px 0 0;
+	 
+	 border-bottom-width: 0;
+ }
+ 
+ .header-inner {
+	 padding: 2px 10px;
+
+	 -webkit-border-radius: 5px 5px 0 0;
+	 -moz-border-radius: 5px 5px 0 0;
+	 border-radius: 5px 5px 0 0;
+	 
+	 border-bottom: 1px solid #E8E8E8;
+ }
+ 
+ .content {
+	 background: white;
+	 border-left: 1px solid #E8E8E8;
+	 border-left: 1px solid rgba(0, 0, 0, .1);
+	 border-right: 1px solid #E8E8E8;
+	 border-right: 1px solid rgba(0, 0, 0, .1);
+ }
+ 
+ .content-inner {
+	 min-height: 51px;
+	 padding: 9px 12px;
+	 border-bottom: 1px solid #E8E8E8;
+ }
+ 
+ .avator {
+	 width: 56px;
+	 height: 56px;
+ }
+ 
+ .info {
+     margin-left: 56px;
+	 margin-right: 56px;
+
+ }
+ 
+ .title {
+	 font-size: 16px;
+	 padding-top: 4px;
+	 padding-bottom: 4px;
+ }
+ 
+ .sub-info {
+	 font-size: 12px;
+ }
+ 
+ .reply {
+	 padding-top: 12px;
+	 text-align: right;
+ }
+ 
+ .pull-left {
+ 	float: left;
+ }
+ 
+ .pull-right {
+ 	float: right;
+ }
+ 
+ .add_right_space {
+	 margin-right: 10px;
+ }
+ .dashboard {
+     background-color: #F9F9F9;
+     border-radius:6px;
+	 padding: 10px;
+	 border:1px solid #eee;
+	 border:1px solid rgba(0,0,0,.1)
+ }
+ 
+
