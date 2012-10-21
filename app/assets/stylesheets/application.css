@@ -17,8 +17,12 @@
  }
  
  #wrapper-left {
+	 background: white;
 	 width: 630px;
      float: left;
+	 border: 1px solid #E8E8E8;
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 border-radius: 6px;
  }
  
  #wrapper-right {
@@ -27,43 +31,26 @@
  }
  
  .topics-header {
-	 border: 1px solid #EEE;
-	 border: 1px solid rgba(0, 0, 0, .1);
-	 
-	 -webkit-border-radius: 6px 6px 0 0;
-	 -moz-border-radius: 6px 6px 0 0;
-	 border-radius: 6px 6px 0 0;
-	 
-	 border-bottom-width: 0;
- }
- 
- .header-inner {
-	 padding: 2px 10px;
-
-	 -webkit-border-radius: 5px 5px 0 0;
-	 -moz-border-radius: 5px 5px 0 0;
-	 border-radius: 5px 5px 0 0;
-	 
+	 padding: 10px 10px;	 
 	 border-bottom: 1px solid #E8E8E8;
  }
  
  .content {
-	 background: white;
-	 border-left: 1px solid #E8E8E8;
-	 border-left: 1px solid rgba(0, 0, 0, .1);
-	 border-right: 1px solid #E8E8E8;
-	 border-right: 1px solid rgba(0, 0, 0, .1);
- }
- 
- .content-inner {
 	 min-height: 51px;
 	 padding: 9px 12px;
 	 border-bottom: 1px solid #E8E8E8;
  }
  
+ .topics-footer {
+
+	 padding: 10px 10px;
+
+ }
+ 
  .avator {
 	 width: 56px;
 	 height: 56px;
+	 border-radius: 6px;
  }
  
  .info {
