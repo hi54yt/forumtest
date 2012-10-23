@@ -1,6 +1,6 @@
-class CreatePosts < ActiveRecord::Migration
+class CreateTopics < ActiveRecord::Migration
   def change
-    create_table :posts do |t|
+    create_table :topics do |t|
       t.string   :title
       t.text     :content
       t.timestamps

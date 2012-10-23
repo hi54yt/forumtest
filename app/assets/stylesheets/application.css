@@ -8,21 +8,34 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require bootstrap_and_overrides
  *= require_self
  *= require_tree .
  */
+ body {
+	 background-color: #EEE;
+ }
+ .user {
+	 padding: 10px;
+ }
+ 
  #wrapper {
 	 width: 960px;
 	 margin: 0 auto;
  }
  
- #wrapper-left {
-	 background: white;
-	 width: 630px;
-     float: left;
+ .box {
+	 background-color: white;
 	 border: 1px solid #E8E8E8;
 	 border: 1px solid rgba(0, 0, 0, .1);
 	 border-radius: 6px;
+ }
+ 
+ #wrapper-left {
+
+	 width: 630px;
+     float: left;
+
  }
  
  #wrapper-right {
@@ -30,6 +43,8 @@
 	 float: right;
  }
  
+ 
+ /*首页*/
  .topics-header {
 	 padding: 10px 10px;	 
 	 border-bottom: 1px solid #E8E8E8;
@@ -82,6 +97,10 @@
  	float: right;
  }
  
+ .pull-center {
+    text-align: center;
+ }
+ 
  .add_right_space {
 	 margin-right: 10px;
  }
@@ -93,4 +112,38 @@
 	 border:1px solid rgba(0,0,0,.1)
  }
  
+ /*登陆页*/
+#signin-form {
+	 background: white;
+	 border-radius: 6px;
+     padding: 20px;
+	 width: 300px;
+     margin: 0 auto;
+ }
+ /*注册页*/
+ #signup-form {
+	 background: white;
+	 border-radius: 6px;
+     padding: 20px;
+	 width: 300px;
+     margin: 0 auto;
+ }
+ 
+ /*内容页面*/
+ .topic {
+
+ }
+ 
+ .topic-head {
+	 padding: 10px;
+	 border-bottom: 1px solid #E8E8E8;
+ }
+ 
+ .topic-content {
+	 padding: 10px;
+ }
+
+ .topic-info {
+	 margin-right: 56px;
+ }
 

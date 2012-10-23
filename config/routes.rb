@@ -1,6 +1,5 @@
 Forumtest::Application.routes.draw do
-  
-  resources :boards, only: [:index]
+  resources :topics, only: [:index]
   root :to => 'boards#index'
   match 'ui(/:action)', controller: 'ui'
 

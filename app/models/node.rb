@@ -1,3 +1,3 @@
-class Post < ActiveRecord::Base
+class Node < ActiveRecord::Base
   # attr_accessible :title, :body
 end

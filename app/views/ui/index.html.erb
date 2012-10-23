@@ -1,0 +1,10 @@
+<ul>
+	<% Dir.glob('app/views/ui/*.html.erb').sort.each do |file| %>
+		<% wireframe = File.basename(file, '.html.erb') %>
+		<% unless wireframe == 'index' || wireframe.match(/^_/) %>
+	<li>
+		<%= link_to wireframe.titleize, action: wireframe unless wireframe == 'index' %>
+	</li>
+	<% end %>
+	<% end %>
+</ul>
