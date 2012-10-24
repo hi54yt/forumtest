@@ -1,6 +1,6 @@
 Forumtest::Application.routes.draw do
   resources :topics, only: [:index]
-  root :to => 'boards#index'
+  root :to => 'homepage#index'
   match 'ui(/:action)', controller: 'ui'
 
   # The priority is based upon order of creation:
