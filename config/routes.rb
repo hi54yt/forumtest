@@ -1,5 +1,5 @@
 Forumtest::Application.routes.draw do
-  resources :topics, only: [:index]
+  resources :topics, only: [:index, :show]
   root :to => 'homepage#index'
   match 'ui(/:action)', controller: 'ui'
 
